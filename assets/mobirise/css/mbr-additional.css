@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
-
-
-
-
 body {
   font-style: normal;
   line-height: 1.5;
@@ -1770,10 +1766,10 @@ body {
 .cid-r0CMpj3SG3 .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
-.cid-r0CMpj3SG3 .mbr-text,
+/* .cid-r0CMpj3SG3 .mbr-text,
 .cid-r0CMpj3SG3 .mbr-section-btn {
   text-align: right;
-}
+} */
 .cid-r0CBsMC5Mx {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -2883,4 +2879,33 @@ body {
 }
 .cid-r1zvdBnAb1 .links B {
   color: #333333;
+}
+
+
+/* MI ESTILO */
+.primera-seccion {
+  margin-top: 0px;
+}
+.consul {
+  margin-left: 30%;
+}
+.somos-al {
+  text-align: right;
+}
+.iconos {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .primera-seccion {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .consul {
+    margin-left: 0%;
+    text-align: center;
+  }
+  .somos-al {
+    text-align: center !important;
+  }
 }
